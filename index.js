@@ -2,6 +2,7 @@ const express = require('express');
 const database = require('nedb');
 const favicon = require('serve-favicon');
 const path = require('path');
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3000;
